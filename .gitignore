@@ -3,6 +3,7 @@
 Thumbs.db
 *.log
 *.tmp
+*.xml
 
 # Abaikan file dan folder editor
 .vscode/
