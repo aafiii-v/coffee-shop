@@ -1,0 +1,139 @@
+/* untuk mereset margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282727;
+    color: #ffffff;
+}
+
+main {
+    margin-top: 135px;
+}
+
+main .img-home img {
+    width: 100%;
+    height: auto;
+}
+
+article {
+    max-width: 1300px;
+    margin: auto;
+    padding: 20px;
+}
+
+article h1, h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+.part-one, .part-two, .part-three, .part-four, .part-five, .part-six {
+    background-color: #333333;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 4px 7px #000000;
+    border-radius: 10px;
+}
+
+.number-list ol, .bullet-list-four ul, .bullet-list-five ul {
+    margin-left: 20px;
+}
+
+.number-list li, .bullet-list-four li, .bullet-list-five li {
+    margin-bottom: 10px;
+}
+
+.text-one p, .text-two p, .text-three p, .text-four p, .text-five p, .text-six {
+    margin-bottom: 20px;
+}
+
+.box-three, .box-four, .box-five {
+    background-color: #444444;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+
+/* ----------------------------------------------------------------- */
+/* responsive layar 1024 */
+@media screen and (max-width: 1024px) {
+    main .img-home img {
+        margin-top: -15px;
+    }
+    article h1, h2 {
+        font-size: 25px;
+    }
+    .text-one p, .text-two p, .text-three p, .text-four p, .text-five p, .text-six {
+        font-size: 15px;
+    }
+    .number-list li, .bullet-list-four li, .bullet-list-five li {
+        font-size: 15px;
+    }
+}
+
+/* responsive layar 768px */
+@media screen and (max-width: 768px) {
+    main .img-home img {
+        margin-top: -25px;
+    }
+    article h1, h2 {
+        font-size: 20px;
+    }
+    .text-one p, .text-two p, .text-three p, .text-four p, .text-five p, .text-six {
+        font-size: 12px;
+    }
+    .number-list li, .bullet-list-four li, .bullet-list-five li {
+        font-size: 12px;
+    }
+}
+
+/* responsive layar 425px */
+@media screen and (max-width: 426px) {
+    main .img-home img {
+        margin-top: -85px;
+    }
+    article h1, h2 {
+        font-size: 12px;
+    }
+    .text-one p, .text-two p, .text-three p, .text-four p, .text-five p, .text-six {
+        font-size: 9px;
+    }
+    .number-list li, .bullet-list-four li, .bullet-list-five li {
+        font-size: 9px;
+    }
+}
+
+/* responsive layar 375px */
+@media screen and (max-width: 376px) {
+    main .img-home img{
+        width: 415px;
+    }
+    article h1, h2 {
+        font-size: 12px;
+    }
+    .part-one, .part-two, .part-three, .part-four, .part-five, .part-six {
+        width: 375px;
+    }
+    .text-one p, .text-two p, .text-three p, .text-four p, .text-five p, .text-six {
+        font-size: 9px;
+    }
+    .number-list li, .bullet-list-four li, .bullet-list-five li {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    main .img-home img{
+        width: 415px;
+    }
+
+    .part-one, .part-two, .part-three, .part-four, .part-five, .part-six {
+        width: 375px;
+    }
+}

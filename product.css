@@ -1,0 +1,148 @@
+/* untuk mereset margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282727;
+}
+
+.judul {
+    margin-top: 155px;
+}
+
+.judul h1 {
+    background-color: #875a38;
+    text-align: center;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 36px;
+    border: 1px solid #000000;
+    box-shadow: 2px 4px 7px #000000;
+    text-shadow: 4px 4px 4px #000000;
+    padding: 10px;
+}
+
+#tampil {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 25px;
+}
+
+figure {
+    border-radius: 8px;
+    border: 1px solid #000000;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    background-color: #875a38;
+    color: #ffffff;
+    box-shadow: 2px 4px 7px #000000;
+    transition: transform 0.3s ease;
+}
+
+figure:hover {
+    background-color: #5d351f;
+    transform: scale(1.1);
+}
+
+figure img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+figcaption h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+figcaption p {
+    margin: 5px 0;
+    color: #cecaca;
+}
+
+/* responsive layar 1024 */
+@media screen and (max-width: 1024px) {
+    .judul {
+        margin-top: 135px;
+    }
+    .judul h1 {
+        font-size: 30px;
+    }
+}
+
+/* responsive layar 768px */
+@media screen and (max-width: 768px) {
+    .judul {
+        margin-top: 120px;
+    }
+    .judul h1 {
+        font-size: 23px;
+    }
+    figure {
+        width: 160px;
+        font-size: 12px;
+        padding: 10px;
+    }
+}
+
+/* responsive layar 425 */
+@media screen and (max-width: 426px) {
+    .judul {
+        margin-top: 60px;
+        width: 425px;
+    }
+    .judul h1 {
+        font-size: 12px;
+    }
+    figure {
+        width: 90px;
+        font-size: 7px;
+    }
+
+    footer .footer-one {
+        text-align: center;
+    }
+}
+
+/* responsive layar 375px */
+@media screen and (max-width: 376px) {
+    .judul {
+        margin-top: 60px;
+        width: 460px;
+    }
+    .judul h1 {
+        font-size: 12px;
+    }
+    #tampil {
+        margin-right: -40px;
+    }
+    figure {
+        width: 90px;
+        font-size: 7px;
+    }
+
+    footer .footer-one {
+        width: 470px;
+        text-align: center;
+    }
+    footer .footer-two {
+        margin-left: 25px;
+    }
+}
+
+/* responsive layar 320px */
+@media screen and (max-width: 376px) {
+    .container-product #tampil {
+        margin-right: -90px;
+    }
+}
